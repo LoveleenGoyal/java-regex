@@ -13,7 +13,7 @@ public class RepeatedWords {
         Matcher matcher = pattern.matcher(text);
 
         while (matcher.find()) {
-            System.out.println(matcher.group(1));
+            System.out.println("Repeated word: " + matcher.group(1));
         }
     }
 }
